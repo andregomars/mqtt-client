@@ -8,5 +8,5 @@ mqtt sub -t 'mytopic' -h 'test.mosquitto.org' -v
 
 ## To publish mqtt
 ```bash
-docker run --rm andregomars/mqtt-client mqtt pub -t 'mytopic' -h 'test.mosquitto.org' -m 'from MQTT.js'
+docker run --rm andregomars/mqtt-client mqtt pub -t 'mytopic' -h 'test.mosquitto.org' -p 1883 -m 'from MQTT.js'
 ```
